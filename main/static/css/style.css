@@ -1,0 +1,71 @@
+*{
+    background-color: blue;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+nav a{
+    padding-left: 50px;
+}
+nav button{
+    margin-right: 20px;
+    background-color: white;
+    color: blue;
+    padding: 5px 10px;
+    border: 2px solid green;
+}
+nav div{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer p{
+    padding-top: 10px;
+}
+.cities{
+    display: flex;
+    justify-content: space-around;
+}
+.city{
+    border: 2px solid red;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.city h1{
+    background-color: white;
+    color: black;
+}
+.city h2{
+    background-color: white;
+    color: black;
+}
+.city p{
+    background-color: white;
+    color: black;
+}
+.city img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+.spec{
+    position: relative;
+}
+.spec h2{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    color: white;
+    background-color: black;
+    padding: 5px;
+}
